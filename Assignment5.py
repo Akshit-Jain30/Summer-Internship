@@ -125,8 +125,8 @@
 #
 # df = pd.DataFrame({
 #     'ID': [101, 102],
-#     'Name': ['Alice', 'Bob'],
-#     'Marks': [85, 90]
+#     'Name': ['Keshav', 'Amrita'],
+#     'Marks': 50, 67]
 # })
 # r= df.values.tolist()
 # print(r)

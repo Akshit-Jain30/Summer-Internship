@@ -8,7 +8,7 @@ data = [
     ["Vidushi", "Jaipur", "2374922753", "Vidushi@gmail.com"],
     ["Akshit", "SWM", "9837261583", "Akshit@gmail.com"]
 ]
-with open("AddressBook.csv", "w") as file:
+with open("AddressBook.csv", "w" ,newline="") as file:
     writer = csv.writer(file)
 
     for row in data:
